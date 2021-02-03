@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title </title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="~/img/icon.png">
+    <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansmyanmar.css" />
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container navHeader-Style">
+            <div id="logo" class="pull-left">
+                <h1>
+                    @*<img src="~/img/T logo 33 - HTZ.png" />*@
+                    <a href="#intro" class="scrollto"><img src="~/img/T logo 33 - HTZ.png" alt="" title="" width=75 height=45 style="margin-top:-5.8px;" /></a>
+                </h1>
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("HOME", "Index", "Home")</li>
+                    <li>@Html.ActionLink("SALES", "Sales", "Home")</li>
+                    <li>@Html.ActionLink("PORTFOLIO", "Portfolio", "Home")</li>
+                    <li>@Html.ActionLink("ABOUT", "About", "Home")</li>
+                    <li>@Html.ActionLink("CONTACT", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="body-typeS">
+            @RenderBody()
+        </div>
+        <footer class="footer" role="contentinfo">
+            <div class="footer-Box">
+                <div class="container">
+                    <div class="col-lg-3 col-md-6 footer-info">
+                        <img src="~/img/T logo 33 - HTZ.png" alt="" title="" width="200" />
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links link">
+                        <h4 class="header_p">Useful Links</h4>
+                        <ul>
+                            <li class="lang" key="home"><a href="@Url.Action("Index", "Home")"><i class="icon-action-redo"></i> Home</a></li>
+                            <li><a href="@Url.Action("About", "Home")"><i class="icon-action-redo"></i> About us</a></li>
+                            <li><a href="#solution"><i class="icon-action-redo"></i> Solutions</a></li>
+                            <li><a href="#services"><i class="icon-action-redo"></i> Services</a></li>
+                            <li><a href="@Url.Action("Sales", "Home")"><i class="icon-action-redo"></i> Sales</a></li>
+                            <li><a href="@Url.Action("Contact", "Home")"><i class="icon-action-redo"></i>Contact Us </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links contact">
+                        <h4 class="header_p">Contact Us</h4>
+                        <address>
+                            No.(235/A) (20/A) Ward,<br />
+                            Maung Makan Kann Thar Street,<br />
+                            South Dagon Township Yangon, Myanmar
+                        </address>
+                        <p>
+                            <strong>Phone:</strong> 09-5118397<br>
+                            <strong>Email:</strong>info@ideavision.com.mm<br>
+                        </p>
+
+                        <div class="social-links">
+                            <a href="https://web.facebook.com/TrustnetsolutionsMyanmar" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links about">
+                        <h4 class="header_p">Our Goals</h4>
+                        <p>OUR GOAL is The Best Idea System Design for Your Vision.  <a href="@Url.Action("About", "Home")" class="about_outline">More>>></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item">
+                <p class="footer-item-copyright" style="margin: 0 0 0px;">&copy; Copyright 2019, <strong>Sample Developed by HTZ </strong></p></div>
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
