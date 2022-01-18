@@ -11,9 +11,9 @@ This is ReadMe Page.
 UI OverAll View 
 ```
 `header`
-<img align="center" width="420" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/header.png" alt="header view" />
+<img align="center" width="430" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/header.png" alt="header view" />
 `body`
-<img align="center" width="420" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/body1.png" alt="body view" />
+<img align="center" width="430" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/body1.png" alt="body view" />
 `footer`
 <img align="center" width="400" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/footer.png" alt="body view" />
 
