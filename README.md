@@ -11,9 +11,9 @@ This is ReadMe Page.
 UI OverAll View 
 ```
 `header`
-<img align="center" width="400" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/header.png" alt="header view" />
+<img align="center" width="420" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/header.png" alt="header view" />
 `body`
-<img align="center" width="400" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/body1.png" alt="body view" />
+<img align="center" width="420" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/body1.png" alt="body view" />
 `footer`
 <img align="center" width="400" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/footer.png" alt="body view" />
 
@@ -22,9 +22,9 @@ UI OverAll View
 Contact View & Product Detail View
 ```
 `contact one`
-<img align="center" width="370" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/contact-8.png" alt="header view" />
+<img align="center" width="390" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/contact-8.png" alt="header view" />
 `contact two`
-<img align="center" width="370" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/contact18.png" alt="body view" />
+<img align="center" width="390" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/contact18.png" alt="body view" />
 `product detail`
 <img align="center" width="400" src="https://github.com/hninthuzar/WebSite-with-VSWebApp/blob/master/respos-detail.png" alt="body view" />
 
